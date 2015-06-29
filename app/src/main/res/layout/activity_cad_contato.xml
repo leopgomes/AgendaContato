@@ -1,0 +1,57 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.agendacontato.leandro.agendacontato.CadContatoActivity"
+    android:orientation="vertical"
+    android:background="#ffff">
+
+    <EditText
+        android:id="@+id/edtContatoNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/nome"
+        android:textColorHint="#696969"
+        android:textColor="#696969"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:id="@+id/edtContatoTelefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="@string/telefone"
+        android:textColorHint="#696969"
+        android:textColor="#696969"
+        android:layout_marginBottom="15dp"
+        android:maxLength="10"/>
+
+    <EditText
+        android:id="@+id/edtContatoEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email"
+        android:textColorHint="#696969"
+        android:textColor="#696969"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:id="@+id/edtContatoDtNasc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/dtnasc"
+        android:inputType="none"
+        android:focusable="false"
+        android:textColorHint="#696969"
+        android:textColor="#696969"
+        android:layout_marginBottom="15dp"/>
+
+
+</LinearLayout>

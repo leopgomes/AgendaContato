@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">AgendaContato</string>
+
+    <string name="titulo">Agenda de contatos</string>
+    <string name="title_activity_usuario">Cadastro Usuário</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_action_salvar">Salvar</string>
+    <string name="menu_action_excluir">Excluir</string>
+
+    <string name="nome">Nome</string>
+    <string name="telefone">Telefone</string>
+    <string name="email">E-mail</string>
+    <string name="dtnasc">Data nascimento</string>
+    <string name="login">Login</string>
+    <string name="senha">Senha</string>
+
+    <string name="validaCampos">Campo obrigatório!</string>
+    <string name="title_activity_login">Login</string>
+
+
+    <string name="btnEntrar">Acessar</string>
+    <string name="btnCadatrar">Cadastre-se</string>
+    <string name="title_activity_listar_contato">Contatos</string>
+
+    <string name="incluir">Incluir</string>
+    <string name="title_activity_cad_contato">Cadastrar Contato</string>
+    <string name="title_activity_cad_contato_atualizar">Atualizar Contato</string>
+
+    <string name="hello_world">Hello world!</string>
+
+
+
+
+
+
+</resources>
